@@ -19,3 +19,8 @@
 - [x] Display
 - [] Position H.W.
 - [] design the form according to you
+
+### Day 2 - Project: Cartoon Network Page
+
+- [] Flexbox Basics
+- [] Project
