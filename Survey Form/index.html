@@ -6,18 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style></style>
 
+<!--The link tag is used to link your css file which is made separetly for the html-->
+<!--Make sure to add the correct directory for your css file(s) and other assests and also organise them within separate folders-->
     <link rel="stylesheet" href="./style.css" />
 
     <title>Survey Form</title>
   </head>
   <body>
+<!--First we create a div block with the class container to have a main container within which styling would be adjusted for the form-->
     <div class="container">
       <h1 class="mainHeading">Survey Form</h1>
 
       <hr class="divider" />
 
+<!--Now we create the form body itself with class name form-control to add css attributes later to it-->
+<!--Different form elements will be assigned with different unique id's for styling each element separately as desired-->
       <form class="form-control">
         <label>Name: </label>
+<!--The attribute required in input type makes the field important to fill to be able to submit the form-->
         <input type="text" required />
         <label>Email: </label>
         <input type="email" />
@@ -35,6 +41,7 @@
         <select>
           <option>India</option>
           <option>India</option>
+<!--Id attribute is used in the option usa to give it a separete syling(colour). This could be done to all the options of the select tag-->
           <option id="usa">USA</option>
           <option>India</option>
           <option>India</option>
